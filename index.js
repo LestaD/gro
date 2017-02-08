@@ -21,3 +21,15 @@ module.exports = function gro(name) {
     }
   };
 };
+
+module.exports.group = function group(name) {
+  return console.group(name), function () {
+    return console.groupEnd(name)
+  }
+}
+
+module.exports.time = function time(name) {
+  return console.time(name), function () {
+    return console.timeEnd(name)
+  }
+}

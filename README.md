@@ -24,3 +24,15 @@ ExampleName.foo
 |   Example.Name.foo: 0.186ms
 └
 ```
+
+## And
+
+```js
+const gro = require('gro')
+
+const gend = gro.group('Foo')
+gend()
+
+const tend = gro.time('Bar')
+tend()
+```
