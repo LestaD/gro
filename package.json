@@ -1,0 +1,26 @@
+{
+  "name": "gro",
+  "version": "1.0.0",
+  "description": "Simpler console.time and console.group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lestad/gro.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "logger",
+    "time",
+    "group"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lestad/gro/issues"
+  },
+  "homepage": "https://github.com/lestad/gro#readme"
+}
